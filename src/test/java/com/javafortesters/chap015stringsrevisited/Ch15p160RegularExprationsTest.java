@@ -7,7 +7,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.fail;
 
-public class RegularExprationsTest {
+public class Ch15p160RegularExprationsTest {
 
     @Test (expected = InvalidPasswordException.class)
     public void invalidPasswordExceptionIsThrownInTheParamConstructor() throws InvalidPasswordException {
